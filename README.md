@@ -1,4 +1,4 @@
-* C++ Plus Data Structures
+# C++ Plus Data Structures
 
 Taking notes from the book C++ Plus Data Structures by Nell Dale.
 

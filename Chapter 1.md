@@ -32,8 +32,44 @@ We use the term *software engineering* to refer to a disciplied approach to the 
 Quality software is muchr than a program that somehow accomplishes the task at hand. A good program achieves the following goals:
 
 > It works.
+>
 > It can be read and understood.
-> It can be modified without excruciating time and effor.
+>
+> It can be modified without excruciating time and effort.
+>
 > It is completed on time and within budget.
 
 ***It's not easy to meet these goals, but they are important.***
+
+*** Goal 1: Quality Software Works ***
+The program must do the task it was designed to perform, and it must do it correctly and completely. To write a program that works you first need to have a definition of the program's *reqirements.*
+
+> **Requirements:** A statement of what is to be provided by a computerd system or software product.
+
+We develop programs that meet the user's requirements using *software specifications.* The specifications indicate the format of the input and the expected output.
+
+> **Software Specification:** A detailed description of the function, inputs, processing, outputs, and special requirements of a software product. It provides the information needed to design and implement the program.
+
+Goal 1 means that the program should be as *effcient as it needs to be.* We would never deliberately write programs that waste time or space in memory, but no all programs demand great efficiency.
+
+### Goal 2: Quality Software Can Be Read and Understood
+
+The second goal is more concered with our ability to read the program. reading a well-written program can teach you techniques that help you write good programs.
+
+### Goal 3: Quality Software Can be Modified
+
+When does software need to be modified? Changes occur in every phase of its existance.
+
+> 1. Software gets changed in the testing phase.
+> 2. Software gets changed in the coding phase.
+> 3. Software gets changed in the testing phase.
+
+The point is that software changes often and in all places of its life cycle. Knowing this, software engineers try to develop programs that are easily modifiable.
+What makes a program easily modifiable? First, it should meet Goal 2: it should be readable and understandable to humans. Second, it should be able to witstand small changes easily. 
+
+### Goal 4: Quality Software Is Completed on Time and Within Budget
+Failure to meet deadlines is expensive.
+
+## Specification: Understanding the Problem
+
+> The first step is to *think*. Before you can come up with a program solution, you must understand the problem. Read the assignment, and then read it again. Ask questions of your instructor (or manager, or client). Start early affords you many opportunities to ask questions; starting the night beofre the program is due leaves you no oppportunity at all.

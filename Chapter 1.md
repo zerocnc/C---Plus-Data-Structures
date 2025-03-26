@@ -114,3 +114,6 @@ One method fo designing software is called ***functional decomposition***, also 
 In object-oriented design, the first step is to identify the simplest and most widely used objects and process in the decomposition and implement them faithfully. Once you have completed this stage, you often cna reuse these objects and process to implement more complex objects and process. This *hierachy of objects* is the basis for object-oriented design.
 
 Groups of objects with similar properties and behaviors are described by ***object class*** (usually shorted to class).
+
+> [!NOTE]
+> ***Object Class (Class) The description of a group of objects with similar properties and behaviours; a pattern for creating individual objects.

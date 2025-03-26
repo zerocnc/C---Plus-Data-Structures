@@ -73,3 +73,26 @@ Failure to meet deadlines is expensive.
 ## Specification: Understanding the Problem
 
 > The first step is to *think*. Before you can come up with a program solution, you must understand the problem. Read the assignment, and then read it again. Ask questions of your instructor (or manager, or client). Start early affords you many opportunities to ask questions; starting the night beofre the program is due leaves you no oppportunity at all.
+
+### Writing Detailed Specificiations
+1. First write a complete defintion of the problem, including:
+    - the details of the expected inputs and outputs,
+    - the necessary processing and error handling,
+    - all the assumptions about the problem.
+
+The process of writing the specifications tells you exactly what the program should do.
+
+*Detailed specification*: a formal defnition of th eproblem your program must solve.
+
+## Program Design
+
+The detailed specification fo the program tells what the progm must do, but not how it does it. Once you have fully claified the goals fo the program, you can begin to develop and record a strategy for meeting them; in other words, you can begin the design phase of the software life cycle.
+
+### Abstraction
+
+The universe is filled with comples systems. We use models to reduce the complexity with abstraction. An ***abstraction*** is a model of a comples system that includes only the essential details. Different abstractions of a particular system are used by different viewers of the system.
+
+> **Abstraction**: A model of a complex system that includs only the details essential to the perspective of the viewer of the system.
+
+## Information Hiding
+One important 

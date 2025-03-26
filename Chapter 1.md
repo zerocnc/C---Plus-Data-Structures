@@ -116,4 +116,4 @@ In object-oriented design, the first step is to identify the simplest and most w
 Groups of objects with similar properties and behaviors are described by ***object class*** (usually shorted to class).
 
 > [!NOTE]
-> ***Object Class (Class) The description of a group of objects with similar properties and behaviours; a pattern for creating individual objects.
+> **Object Class (Class)** The description of a group of objects with similar properties and behaviours; a pattern for creating individual objects.

@@ -2,30 +2,31 @@
 
 ## Software Design Process
 
-Developing techniques and methodolgy to write software programs include:
+- Developing techniques and methodolgy to write software programs include:
 
-*Problem Analysis*: Understanding the nature of the problem to be solved
+- *Problem Analysis*: Understanding the nature of the problem to be solved
 
-*Requirements definition*: Specifying exactly what the program must do.
+- *Requirements definition*: Specifying exactly what the program must do.
 
-*High- and Low-level design*: Recording how the program meets the requirements.
+- *High- and Low-level design*: Recording how the program meets the requirements.
 
-*Implementation of the design*: Coding a program in a computer language.
+- *Implementation of the design*: Coding a program in a computer language.
 
-*Testing and verification*: Detecting and fixing errors and demonstrating the correctness of the program.
-*Delivery*: Turning over the tested progam to the customer or user (or instructor!)
+- *Testing and verification*: Detecting and fixing errors and demonstrating the correctness of the program.
 
-*Operation* Actually using the program.
+- *Delivery*: Turning over the tested progam to the customer or user (or instructor!)
 
-*Maintenece*: Making changes to fix operational errors and to add or modify functions of the program.
+- *Operation* Actually using the program.
+
+- *Maintenance*: Making changes to fix operational errors and to add or modify functions of the program.
 
 We can go though these steps one by one or concurrently, that should be kept in mind when designing new software.
 
 We use the term *software engineering* to refer to a disciplied approach to the development of computer programs though all of these software life-cycle activities.
 
->**Software Engineering**: A disciplined approach to the design, production, and maintence of computer programs that are developed on time and within costs estimaes, using tools that help to manage the size and comlexity of the resulting software products.
+>**Software Engineering**: A disciplined approach to the design, production, and maintence of computer programs that are developed on time and within costs estimaes, using tools that help to manage the size and complexity of the resulting software products.
 
->*Algorithm*: A logical sequence of discrete steps that describes a complete solution to a given problem computable in a finite amount of time.
+>*Algorithm*: A logical sequence of discrete steps that describes a complete solution to a given problem computable in a finite amount of time. An algorithm must have a clear start and end, and be finite (i.e. it terminates under a certain number of steps).
 
 ## Goals of Quality Software
 
@@ -50,11 +51,11 @@ We develop programs that meet the user's requirements using *software specificat
 
 > **Software Specification:** A detailed description of the function, inputs, processing, outputs, and special requirements of a software product. It provides the information needed to design and implement the program.
 
-Goal 1 means that the program should be as *effcient as it needs to be.* We would never deliberately write programs that waste time or space in memory, but no all programs demand great efficiency.
+Goal 1 means that the program should be as *efficient as it needs to be.* We would never deliberately write programs that waste time or space in memory, but no all programs demand great efficiency.
 
 ### Goal 2: Quality Software Can Be Read and Understood
 
-The second goal is more concered with our ability to read the program. reading a well-written program can teach you techniques that help you write good programs.
+The second goal is more concered with our ability to read the program. Reading a well-written program can teach you techniques that help you write good programs. A clean and well written program will allow the programmer to find bugs if they appear.
 
 ### Goal 3: Quality Software Can be Modified
 
@@ -65,7 +66,7 @@ When does software need to be modified? Changes occur in every phase of its exis
 > 3. Software gets changed in the testing phase.
 
 The point is that software changes often and in all places of its life cycle. Knowing this, software engineers try to develop programs that are easily modifiable.
-What makes a program easily modifiable? First, it should meet Goal 2: it should be readable and understandable to humans. Second, it should be able to witstand small changes easily. 
+What makes a program easily modifiable? First, it should meet Goal 2: it should be readable and understandable to humans. Second, it should be able to withstand small changes easily. Code refactoring allows us to redsign and find that some functions could contain classes with the program. This allows us to use abstraction to further reduce complexity in the code.
 
 ### Goal 4: Quality Software Is Completed on Time and Within Budget
 Failure to meet deadlines is expensive.
@@ -82,7 +83,7 @@ Failure to meet deadlines is expensive.
 
 The process of writing the specifications tells you exactly what the program should do.
 
-*Detailed specification*: a formal defnition of th eproblem your program must solve.
+*Detailed specification*: a formal definition of the problem your program must solve.
 
 ## Program Design
 
@@ -90,16 +91,16 @@ The detailed specification fo the program tells what the progm must do, but not 
 
 ### Abstraction
 
-The universe is filled with comples systems. We use models to reduce the complexity with abstraction. An ***abstraction*** is a model of a comples system that includes only the essential details. Different abstractions of a particular system are used by different viewers of the system.
+The universe is filled with complexs systems. We use models to reduce the complexity with abstraction. An ***abstraction*** is a model of a complexs system that includes only the essential details. Different abstractions of a particular system are used by different viewers of the system.
 
-> **Abstraction**: A model of a complex system that includs only the details essential to the perspective of the viewer of the system.
+> **Abstraction**: A model of a complex system that includes only the details essential to the perspective of the viewer of the system.
 
 ## Information Hiding
 One important feature of any design method is that the details that are specified in lower levels of the program design are hidden form the higher levels. The programmer sees only the details that are relevant at a particular level fo the design. This is *information hiding* makes certain details inaccessible to the programmer at higher levels.
 
 > ***Infomration Hiding***: The practice of hiding the details ofa  function or data structure with the goal of controlling access to the details fo a module or structure.
 
-Infomration hiding prevents the high levels of the design from becoming dependent on low-level design dedtails that are more likely to be changed. The concepts of abstraction and information hiding are fundamental principles of software engineering.
+Information hiding prevents the high levels of the design from becoming dependent on low-level design details that are more likely to be changed. The concepts of abstraction and information hiding are fundamental principles of software engineering.
 
 ### Functional Decomposition
 One method fo designing software is called ***functional decomposition***, also called ***top-down design***.

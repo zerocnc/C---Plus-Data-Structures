@@ -95,4 +95,22 @@ The universe is filled with comples systems. We use models to reduce the complex
 > **Abstraction**: A model of a complex system that includs only the details essential to the perspective of the viewer of the system.
 
 ## Information Hiding
-One important 
+One important feature of any design method is that the details that are specified in lower levels of the program design are hidden form the higher levels. The programmer sees only the details that are relevant at a particular level fo the design. This is *information hiding* makes certain details inaccessible to the programmer at higher levels.
+
+> ***Infomration Hiding***: The practice of hiding the details ofa  function or data structure with the goal of controlling access to the details fo a module or structure.
+
+Infomration hiding prevents the high levels of the design from becoming dependent on low-level design dedtails that are more likely to be changed. The concepts of abstraction and information hiding are fundamental principles of software engineering.
+
+### Functional Decomposition
+One method fo designing software is called ***functional decomposition***, also called ***top-down design***.
+> First the problem is broken into several large tasks. Each of these tasks is in turn divided into sections, then the sections are subdivided, and so on. The important feature is that details are deferred as long as possible as we move from a general to a specific solution. ... The functional decomposition approach encourages programming in logical units, using functions. The main moduel of the design beomces the main program (also called the main function), and subsections develoop into funtions. The main module of the design becomes the main porogram, and the subsections develop into fuctions. This *hierachy of tasks* forms the basis for functional decomposition, with the main program or function controlling the processing.
+
+> In functional decomposition, infomration hiding is accomplished primarly though dferring the details of algorithmns. This form of information hiding is based on *procedural* or *functional abstraction*.
+
+### Object-Oriented Design
+
+*Object-oriented design* originalted with the develoopment of programs to simulate physical objects and process in the real world.
+
+In object-oriented design, the first step is to identify the simplest and most widely used objects and process in the decomposition and implement them faithfully. Once you have completed this stage, you often cna reuse these objects and process to implement more complex objects and process. This *hierachy of objects* is the basis for object-oriented design.
+
+Groups of objects with similar properties and behaviors are described by ***object class*** (usually shorted to class).

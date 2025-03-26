@@ -117,3 +117,5 @@ Groups of objects with similar properties and behaviors are described by ***obje
 
 > [!NOTE]
 > **Object Class (Class)** The description of a group of objects with similar properties and behaviours; a pattern for creating individual objects.
+
+To summarize, top-down design methods focus on the *process* of transforming the input into the ouput, resuliting in a heirarchy of tasks. Object-oriented design focus on the *data objects* thart are to be transformed, resulting in a hiearchy of objects.
